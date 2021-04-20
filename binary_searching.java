@@ -1,14 +1,13 @@
-package searching;
+package utsalgobinary;
 import java.util.Scanner;
-
-public class binary_searching {
-        public static void main (String[]args){
+public class Binary {
+    public static void main (String[]args){
         System.out.println("***** BINARY SEARCH *****"+"\n");
         //pendekalarian variabel
-        int A[]= {3, 10, 4, 2, 8, 13};
+        int A[]= {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
         Scanner scan = new Scanner(System.in);
         System.out.print("masukan data yang di cari : ");
-        int cari = 8;
+        int cari =scan.nextInt();
         int N = cari;
         int batasbawah = N - 1;
         int batasatas = 0;
@@ -51,5 +50,3 @@ public class binary_searching {
     
     }
 }
-    
-
